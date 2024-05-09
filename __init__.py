@@ -87,7 +87,8 @@ class OBJECT_OT_surimi_toggle_bone_collection(T.Operator):
 
 
 CLASSES = [SURIMI_PT_bone_collection_toggle,
-           OBJECT_OT_surimi_toggle_bone_collection]
+           OBJECT_OT_surimi_toggle_bone_collection,
+           ]
 
 
 def register():
