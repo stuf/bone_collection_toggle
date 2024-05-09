@@ -1,5 +1,7 @@
 # Bone Collection Toggle Addon for Blender
 
+![Screenshot](assets/screenshot.png)
+
 This addon adds a panel into the 3D View's sidebar for toggling visibility of bone groups. Provides the same sort of functionality as the UI generated in Rigify rigs, but works on any armature.
 
 # Installing
