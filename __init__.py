@@ -5,7 +5,7 @@ from bpy import data as D, context as C
 
 
 bl_info = {
-    "name": "Bone Collection Toggle in 3D View",
+    "name": "Bone Collection Toggle",
     "category": "3D View",
     "author": "piparkaq",
     "version": (0, 1, 0),
@@ -56,7 +56,7 @@ class SURIMI_PT_bone_collection_toggle(T.Panel):
 class OBJECT_OT_surimi_toggle_bone_collection(T.Operator):
     bl_idname = 'surimi.toggle_bone_collection'
     bl_label = 'Toggle Bone Collection'
-    bl_description = 'Toggles the visibility of a bone collection'
+    bl_description = 'Toggles a bone collection\'s visibility'
     bl_options = {'REGISTER', 'UNDO'}
 
     bone_collection: P.StringProperty(name='Bone Collection')
